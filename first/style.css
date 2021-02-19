@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    background: url("../first/image/header-bg.png");
+    position: relative;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_link{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin: 0 30px ;
+}
+.nav_link:hover{
+    color: gold;
+    font-size: 17px;
+}
+.nav1,
+.nav2{
+    border-bottom: 1px solid #ffffff  ;
+    margin: 0 80px;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_wrapper{
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 25px;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.container {
+    justify-content: center;
+    align-items: center;
+    width: 1310px;
+    height: 625px;
+    padding-top: 151px;
+    text-align: center;
+}
+.tittle_name{
+    color: white;
+    font-size: 60px;
+    font-family: "Banny";
+    text-transform: uppercase;
+}
+.tittle_nazv{
+    color: white;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.buttom_inner{
+    width: 200px;
+    height: 60px;
+    background-color: yellow;
+    color: darkgoldenrod;
+}
+.button_wrapper{
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    margin: 0 20px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    background: none;
+    border-radius: 10px ;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.button:hover{
+    transform: scale(1.05);
+}
+.book{
+    background: gold;
+
+}
+.explore{
+    border: 1px solid #ffffff;
+}
+.line{
+    margin: 0 auto;
+    width: 60px;
+    height: 5px;
+    background: gold;
+}
+.down{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50% ;
+    margin-top: 8px;
+}
+.down_wrapper{
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+    margin-top: 120px;
+    border: 2px solid white;
+    border-radius: 50% ;
+}
+.main{
+    width: 100%;
+    height: 680px;
+}
+.main_container{
+    margin: 0 auto;
+    width: 1200px;
+    height: 680px;
+    display: flex;
+}
+.text{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.text_nazv{
+    font-family: Banny;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: black;
+    margin-bottom: 10px;
+}
+.text_name{
+    font-family: Calibri;
+    font-size: 17px;
+    color: black;
+
+}
+.text_line{
+    margin: 0 auto;
+    width: 60px;
+    height: 5px;
+    background: gold;
+    margin-bottom: 10px;
+}
+.text_img{
+    width: 475px;
+    height: 475px;
+    margin-left: 50px;
+}
+.text_figure{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 220px;
+    z-index: 1;
+    right: -40px;
+}
+.team{
+    width: 100%;
+    height: 680px;
+    background: url("../first/image/specialty's-bg.png");
+ }
+.our_team{
+    height: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    font-size: 17px;
+    font-family: Banny;
+    text-transform: uppercase;
+}
+.team_container{
+    width: 1200px;
+    height: 680px;
+    margin: 0 auto;
+    display: flex;
+}
+.master_chef{
+    width: 50%;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.master_chef_nazv{
+    font-family: Banny;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: white;
+    margin-top: 150px;
+
+}
+.chef_line{
+    margin: 0 auto;
+    width: 60px;
+    height: 5px;
+    background: gold;
+    margin-bottom: 10px;
+}
+.master_chef_name{
+    font-family: Calibri;
+    font-size: 17px;
+    color: white;
+}
+.chef_img{
+    width: 475px;
+    height: 475px;
+}
+.chef_figure{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 120px;
+    z-index: 1;
+    left: -40px;
+}
