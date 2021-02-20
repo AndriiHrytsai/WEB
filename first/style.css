@@ -250,3 +250,457 @@ body{
     z-index: 1;
     left: -40px;
 }
+.table{
+    width: 100%;
+    height: 680px;
+}
+.table_container {
+    margin: 0 auto;
+    width: 1200px;
+    height: 680px;
+    display: flex;
+}
+.table_text{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.table_text_nazv{
+    font-size: 50px;
+    font-family: Banny;
+    text-transform: uppercase;
+}
+.table_line{
+    margin: 0 auto;
+    width: 60px;
+    height: 5px;
+    background: gold;
+    margin-bottom: 20px;
+}
+.form{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.form_name{
+    width: 277px;
+    height: 60px;
+    background: silver;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+}
+.form_book{
+    width: 563px;
+    height: 60px;
+    background: gold;
+    border-radius: 5%;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    border: none;
+}
+.form_book:hover{
+    transform: scale(1.05);
+}
+.table_figure{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 220px;
+    z-index: 1;
+    right: -40px;
+}
+.table_figure:hover{
+    transform: translate3d(90px, 0px, 90px);
+}
+.table_img{
+    width: 475px;
+    height: 475px;
+    margin-left: 50px;
+}
+
+.choco{
+    width: 100%;
+    height: 680px;
+    background: url("../first/image/specialty's-bg (1).png");
+}
+.choco_our_team{
+    height: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    font-size: 17px;
+    font-family: Banny;
+    text-transform: uppercase;
+}
+.choco_team_container{
+    width: 1200px;
+    height: 680px;
+    margin: 0 auto;
+    display: flex;
+}
+.choco_master_chef{
+    width: 50%;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.choco_master_chef_nazv{
+    font-family: Banny;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: white;
+    margin-top: 150px;
+    margin-bottom: 10px;
+
+}
+.choco_chef_line{
+    margin: 0 auto;
+    width: 60px;
+    height: 5px;
+    background: gold;
+    margin-bottom: 10px;
+}
+.choco_master_chef_name{
+    font-family: Calibri;
+    font-size: 17px;
+    color: white;
+}
+.choco_chef_img{
+    width: 475px;
+    height: 475px;
+}
+.choco_chef_img {
+    width: 500px;
+    height: 500px;
+}
+.choco_chef_figure{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 120px;
+    z-index: 1;
+    left: -40px;
+}
+.choco_chef_figure:hover{
+    transform: translate3d(-80px, 0px, 50px);
+}
+.specialties{
+    height: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    font-size: 17px;
+    font-family: Banny;
+    text-transform: uppercase;
+}
+.menu{
+    width: 100%;
+    height: 800px;
+}
+.menu_container{
+    width: 1280px;
+    height: 720px;
+    margin: 0 auto;
+}
+.menu_header{
+    width: 1200px;
+    height: 287px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu_header_text{
+    font-family: Calibri;
+    font-size: 17px;
+    color: black;
+
+}
+.menu_header_line{
+    margin: 0 auto;
+    width: 60px;
+    height: 5px;
+    background: gold;
+    margin-bottom: 10px;
+}
+.menu_header_first{
+    font-family: Banny;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: black;
+    margin-bottom: 10px;
+}
+.menu_header_nav{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+.menu_nav{
+    display: flex;
+    justify-content: center;
+}
+.meny_nav1{
+    border-bottom: 1px solid #ffffff  ;
+    margin: 0 80px;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu_nav1_link{
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 30px ;
+    color: black;
+    text-transform: uppercase;
+}
+.menu_menu{
+    width: 1200px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+
+}
+.menu_text{
+width: 33.33333%;
+    height: 580px;
+    margin-right: 30px;
+}
+.menu_text_name{
+    margin-bottom: 10px;
+
+}
+
+/*-----------MENU----------*/
+
+.events{
+    width: 100%;
+    height: 680px;
+    background: url("../first/image/fon.png");
+}
+.private_events{
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-family: Banny;
+    text-transform: uppercase;
+}
+.events_container{
+    width: 1200px;
+    height: 680px;
+    margin: 0 auto;
+    display: flex;
+}
+.events_img{
+    width: 50%;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.first_events{
+    width: 395px;
+    height: 475px;
+    margin-right: 90px;
+}
+.events_figure{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 120px;
+    z-index: 1;
+    left: -40px;
+}
+.events_figure:hover{
+    transform: translate3d(-80px, 0px, 50px);
+}
+
+
+.dark{
+    width:80px;
+    height:395px;
+    position: absolute;
+    top: 40px;
+    z-index: 1;
+    right: 101px;
+}
+.second_events{
+    width: 395px;
+    height: 475px;
+    margin-left: 120px;
+}
+.events_figure_two{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 120px;
+    z-index: 1;
+    right: -40px;
+}
+.events_figure_two:hover{
+    transform: translate3d(90px, 0px, 90px);
+}
+.dark_two{
+    width:80px;
+    height:395px;
+    position: absolute;
+    top: 40px;
+    z-index: 1;
+    left: 120px;
+}
+.imagess{
+    width: 100%;
+    height: 360px;
+}
+.paint{
+    width: 25%;
+    height: 360px;
+    display: flex;
+}
+.paint_one{
+    width: 360px;
+    height: 360px;
+    transition: 3s;
+}
+
+.paint_one:hover{
+    transform: scale(1.4);
+}
+.contact{
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.contact_container{
+    width: 100%;
+    height: 288px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.contact_name{
+text-transform: uppercase;
+    font-family: Banny;
+    font-size: 36px;
+    color: black;
+}
+.contact_line{
+    margin: 0 auto;
+    width: 60px;
+    height: 5px;
+    background: gold;
+    margin-bottom: 20px;
+}
+.contact_nazv{
+    font-family: "Times New Roman";
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+}
+.form_two{
+    width: 100%;
+    height: 260px;
+    margin: 0 auto;
+}
+.form_comtainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form_mess_name{
+    width: 1290px;
+    height: 120px;
+    background: silver;
+    border: none;
+    border-radius: 5px;
+}
+.form_two_name{
+    width: 416px;
+    height: 60px;
+    background: silver;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.text_form{
+    font-size: 14px;
+    font-family: "Times New Roman";
+
+}
+.form_text{
+    font-size: 14px;
+}
+.form_text_container{
+    width: 1300px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+
+}
+.form_button{
+    width: 640px;
+    height: 60px;
+    background: gold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.form_button:hover{
+    transform: scale(1.05);
+}
+.form_mess{
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+.map{
+    width: 100%;
+    height: 480px;
+    background: url("../first/image/mapsdirectionspart1-56cd4d395f9b5879cc5bd51a.png");
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+}
